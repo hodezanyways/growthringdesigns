@@ -1,0 +1,54 @@
+// Place all the styles related to the growth_ring controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body {
+  font-size: 20px;
+}
+
+html {
+    font-family: 'Fresca', sans-serif;
+}
+
+.navbar-inverse {
+  background-color: transparentize(#000, 1);
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-family: 'Fresca';
+  font-size: 100%;
+}
+
+.navbar .nav > li > a {
+    font-size: 110%;
+    color:  white;
+}
+
+
+.navbar .nav > li > a:hover {
+    font-size: 110%;
+    color:  #E8BC9B;
+}
+
+.navbar-brand {
+  padding: 0;
+}
+
+#banner1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), image_url("bandsawbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 75vh;
+}
+
+#banner2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), image_url("lumberbanner.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 85vh;
+}// Place all the styles related to the growth_ring controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
