@@ -38,14 +38,14 @@ html {
 }
 
 #banner1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), image_url("bandsawbanner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), image_url("bandsawbanner.jpg");
   background-size: cover;
   background-position: center;
-  height: 75vh;
+  height: 85vh;
 }
 
 #banner2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), image_url("lumberbanner.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), image_url("lumberbanner.jpg");
   background-size: cover;
   background-position: center;
   height: 85vh;
